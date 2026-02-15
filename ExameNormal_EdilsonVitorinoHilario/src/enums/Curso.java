@@ -1,0 +1,9 @@
+package enums;
+
+public enum Curso {
+    GESTAO_DE_EMPRESAS,
+    ENGENHARIA_DE_COMPUTACAO,
+    ENGENHARIA_METALURGICA,
+    MEDICINA_GERAL,
+    MEDICINA_DENTARIA;
+}
