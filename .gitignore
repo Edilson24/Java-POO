@@ -1,0 +1,20 @@
+# Visual Studio 
+.vs/ 
+*.suo 
+*.user 
+*.userosscache 
+*.sln.docstates 
+[Dd]ebug/ 
+[Rr]elease/ 
+bin/ 
+obj/ 
+*.slnx 
+*.vsidx 
+*.dbmdl 
+*.bak 
+*.tmp 
+*.dll 
+*.exe 
+*.pdb 
+*.log 
+.vscode/ 
