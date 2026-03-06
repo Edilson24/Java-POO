@@ -11,6 +11,7 @@ public class Manipular {
     public void cadastrar(Candidato candidato[], int quantidade){
         Scanner input = new Scanner(System.in);
         for (int i = 0; i < candidato.length; i++){
+
             String nomeCandidato, especialidade;
             int idadeCandidato, opcao, opcaon, opcaov, anoInicio;
 
@@ -126,9 +127,9 @@ public class Manipular {
         for (int i = 0; i < candidato.length; i++) {
             if (candidato[i].getVagas() == Vagas.DART || candidato[i].getVagas() == Vagas.JAVA) {
                 System.out.println("-------------------------------------");
-                System.out.println("Nome           :" + candidato[i].getNomeCompleto() + "\nIdade          :" + candidato[i].getIdade());
-                System.out.println("Nacionalidade  :" + candidato[i].getNacionalidade() + "\nAno de inicio  :" + candidato[i].getAnoInicio());
-                System.out.println("Vaga escolhida :" +candidato[i].getVagas() + "\nGenero         :" + candidato[i].getGenero());
+                System.out.println("Nome           : " + candidato[i].getNomeCompleto() + "\nIdade          : " + candidato[i].getIdade());
+                System.out.println("Nacionalidade  : " + candidato[i].getNacionalidade() + "\nAno de inicio  : " + candidato[i].getAnoInicio());
+                System.out.println("Vaga escolhida : " +candidato[i].getVagas() + "\nGenero         : " + candidato[i].getGenero());
             }
         }
     }

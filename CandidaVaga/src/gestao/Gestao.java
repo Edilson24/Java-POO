@@ -32,7 +32,7 @@ public class Gestao {
         manipular.mocambicanos(candidato, quantidade);
 
         System.out.println("----------------------------------");
-        System.out.println("Os que se candidataram as vagas de Java e Gart:");
+        System.out.println("Os que se candidataram as vagas de Java e Dart:");
         manipular.javaedart(candidato, quantidade);
 
         System.out.println("----------------------------------");
